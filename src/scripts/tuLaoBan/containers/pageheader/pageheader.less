@@ -1,0 +1,44 @@
+.pageheader {
+    margin: 24px 0 0 16px;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    /* height: 90px; */
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.03);
+    box-shadow: 0 2px 3px rgba(0,0,0,0.03);
+    margin-top: 30px;
+    background: white;
+}
+.pageheader .breadcrumb {
+    margin: 0;
+    padding: 0;
+    background: none;
+    font-size: 11px;
+    color: #999;
+    line-height: 18px;
+}
+.pageheader .breadcrumb li  i {
+    color: #999;
+    font-size: 14px;
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.breadcrumb>li {
+    display: inline-block;
+}
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+}
+.pageheader .breadcrumb li a {
+    color: #333;
+}
